@@ -1,0 +1,15 @@
+.split-screen {
+    display: flex;
+    height: 100vh; 
+  }
+  
+  .left-side {
+    flex: 1; 
+    background-color: #d0d0d0;  
+    padding: 20px; 
+  }
+  
+  .right-side {
+    flex: 1;
+    padding: 20px; 
+  }

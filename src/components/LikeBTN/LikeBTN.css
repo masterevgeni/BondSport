@@ -1,0 +1,16 @@
+.like-button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px; 
+    cursor: pointer;
+    margin-top: 10px;
+    transition: transform 0.2s;
+}
+
+.like-button:hover {
+    transform: scale(1.2); 
+}
+
+.liked {
+    color: red;
+}

@@ -1,0 +1,28 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px; 
+    min-height: 80vh;
+    max-height: 80vh; 
+    overflow-y: auto; 
+    overflow-x: hidden;
+}
+
+.card-container::-webkit-scrollbar {
+    display: none;
+}
+
+.card-container {
+    scrollbar-width: none; 
+}
+
+.header {
+    display: flex; 
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header input {
+    margin-left: 10px; 
+}

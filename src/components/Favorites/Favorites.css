@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px; 
+    min-height: 84vh;
+    max-height: 84vh; 
+    overflow-y: auto; 
+    overflow-x: hidden; 
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.container {
+    scrollbar-width: none; 
+}
+
+.header {
+    display: flex; 
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+.header button {
+    margin-left: 10px; 
+}
